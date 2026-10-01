@@ -1,0 +1,83 @@
+{
+  "modelo": "RandomForestClassifier",
+  "hiperparametros": {
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 5
+  },
+  "columnas_entrada": [
+    "Age",
+    "Sex",
+    "ChestPainType",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "RestingECG",
+    "MaxHR",
+    "ExerciseAngina",
+    "Oldpeak",
+    "ST_Slope"
+  ],
+  "categorias": {
+    "Sex": [
+      "F",
+      "M"
+    ],
+    "ChestPainType": [
+      "ASY",
+      "ATA",
+      "NAP",
+      "TA"
+    ],
+    "RestingECG": [
+      "LVH",
+      "Normal",
+      "ST"
+    ],
+    "ExerciseAngina": [
+      "N",
+      "Y"
+    ],
+    "ST_Slope": [
+      "Down",
+      "Flat",
+      "Up"
+    ]
+  },
+  "rangos_train": {
+    "Age": [
+      29.0,
+      77.0
+    ],
+    "MaxHR": [
+      60.0,
+      202.0
+    ],
+    "Oldpeak": [
+      -2.6,
+      5.6
+    ],
+    "RestingBP": [
+      92.0,
+      200.0
+    ],
+    "Cholesterol": [
+      85.0,
+      603.0
+    ]
+  },
+  "umbral": 0.5,
+  "umbral_youden": 0.5503,
+  "auc_cv": 0.9343,
+  "auc_cv_anidado": 0.9263,
+  "metricas_test": {
+    "AUC": 0.9341,
+    "Accuracy": 0.8913,
+    "Precision": 0.8727,
+    "Recall (sensibilidad)": 0.9412,
+    "Especificidad": 0.8293,
+    "F1": 0.9057
+  },
+  "sklearn_version": "1.3.0",
+  "fecha_entrenamiento": "2026-09-30"
+}

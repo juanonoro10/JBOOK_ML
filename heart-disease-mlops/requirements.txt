@@ -1,0 +1,13 @@
+# Entorno de desarrollo: notebooks, pruebas y monitoreo.
+# La imagen de Docker usa solo docker/requirements.txt (lo mínimo para servir el modelo).
+-r docker/requirements.txt
+matplotlib==3.7.2
+seaborn==0.12.2
+evidently==0.4.40
+urllib3<2
+httpx==0.28.1
+pytest==8.4.2
+flake8==7.3.0
+nbformat==5.9.2
+nbconvert==7.17.1
+ipykernel

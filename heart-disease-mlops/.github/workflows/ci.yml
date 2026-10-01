@@ -1,0 +1,29 @@
+# Integración continua (Etapa 5): en cada push se revisa el estilo del código y se corren las pruebas.
+# Si algo falla, GitHub marca el commit con una X roja y el cambio no debería desplegarse.
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'      # la misma versión de la imagen de Docker
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r docker/requirements.txt
+          pip install flake8 pytest httpx
+
+      - name: Lint
+        run: flake8 app/ tests/
+
+      - name: Tests
+        run: pytest tests/ -v

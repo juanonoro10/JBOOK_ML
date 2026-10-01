@@ -1,0 +1,43 @@
+# Integración continua del proyecto heart-disease-mlops (Etapa 5).
+# Vive en la raíz del repositorio porque GitHub Actions solo lee .github/workflows/ de la raíz;
+# todos los pasos se ejecutan dentro de la subcarpeta del proyecto.
+name: CI heart-disease-mlops
+
+on:
+  push:
+    paths:
+      - 'heart-disease-mlops/**'
+      - '.github/workflows/heart-ci.yml'
+  pull_request:
+    paths:
+      - 'heart-disease-mlops/**'
+      - '.github/workflows/heart-ci.yml'
+
+defaults:
+  run:
+    working-directory: heart-disease-mlops
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'      # la misma versión de la imagen de Docker
+          cache: pip
+          cache-dependency-path: heart-disease-mlops/docker/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r docker/requirements.txt
+          pip install flake8 pytest httpx
+
+      - name: Lint
+        run: flake8 app/ tests/
+
+      - name: Tests
+        run: pytest tests/ -v

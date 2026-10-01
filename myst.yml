@@ -6,6 +6,12 @@ project:
 
   toc:
     - file: 01_EDA_carga_inicial.ipynb
+    - title: "Heart Disease MLOps"
+      children:
+        - file: heart-disease-mlops/README.md
+        - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
+        - file: heart-disease-mlops/notebooks/2_model_pipeline_cv.ipynb
+        - file: heart-disease-mlops/notebooks/3_monitoreo_drift.ipynb
 
 site:
   template: book-theme

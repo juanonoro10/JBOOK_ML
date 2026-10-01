@@ -1,0 +1,11 @@
+# Solo se copian docker/requirements.txt y app/; el resto no hace falta en la imagen
+.git
+.github
+notebooks
+figuras
+data
+k8s
+tests
+**/__pycache__
+**/.ipynb_checkpoints
+drift_report.html

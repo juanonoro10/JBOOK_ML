@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# app/model.joblib, data/*.csv y drift_report*.html SÍ se versionan:
+# el CI necesita el modelo y los datos de test, y el reporte es un entregable.

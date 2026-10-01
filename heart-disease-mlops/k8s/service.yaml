@@ -1,0 +1,15 @@
+# Service (Etapa 4): da una dirección fija para llegar a los pods del Deployment.
+# Recibe en el puerto 80 y reenvía al 8000, donde escucha uvicorn dentro del contenedor.
+apiVersion: v1
+kind: Service
+metadata:
+  name: heart-service
+spec:
+  selector:
+    app: heart-model
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  # En Minikube, LoadBalancer necesita "minikube tunnel" o "minikube service heart-service" para tener IP
+  type: LoadBalancer
