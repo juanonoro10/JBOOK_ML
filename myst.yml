@@ -9,13 +9,9 @@ project:
     - title: "Heart Disease MLOps"
       children:
         - file: heart-disease-mlops/README.md
-          title: "Descripción del proyecto"
         - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
-          title: "1. EDA, data leakage y modelos"
         - file: heart-disease-mlops/notebooks/2_model_pipeline_cv.ipynb
-          title: "2. Modelo final con validación segura"
         - file: heart-disease-mlops/notebooks/3_monitoreo_drift.ipynb
-          title: "3. Monitoreo de deriva"
 
 site:
   template: book-theme
