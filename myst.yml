@@ -2,11 +2,13 @@
 
 project:
   id: 1ef8883a-2780-4559-85c0-a713c7d02726
-  title: "Análisis Exploratorio de Datos"
+  title: "Proyectos de Machine Learning"
 
   toc:
+    # Debe seguir siendo la primera página y fuera de cualquier sección:
+    # así se publica en la raíz del sitio (el enlace ya entregado del proyecto Lending Club)
     - file: 01_EDA_carga_inicial.ipynb
-    - title: "Heart Disease MLOps"
+    - title: "Proyecto Heart Disease MLOps"
       children:
         - file: heart-disease-mlops/README.md
         - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
