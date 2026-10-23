@@ -14,6 +14,7 @@ project:
         - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
         - file: heart-disease-mlops/notebooks/2_model_pipeline_cv.ipynb
         - file: heart-disease-mlops/notebooks/3_monitoreo_drift.ipynb
+    - file: Demostraciones_ML.ipynb
 
 site:
   template: book-theme
