@@ -1,20 +1,23 @@
-﻿version: 1
+version: 1
 
 project:
   id: 1ef8883a-2780-4559-85c0-a713c7d02726
-  title: "Proyectos de Machine Learning"
+  title: "Machine Learning"
 
   toc:
-    # Debe seguir siendo la primera página y fuera de cualquier sección:
-    # así se publica en la raíz del sitio (el enlace ya entregado del proyecto Lending Club)
-    - file: 01_EDA_carga_inicial.ipynb
-    - title: "Proyecto Heart Disease MLOps"
+    - file: index.md
+    - title: "Proyecto 1"
+      children:
+        - file: 01_EDA_carga_inicial.ipynb
+    - title: "Proyecto 2"
       children:
         - file: heart-disease-mlops/README.md
         - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
         - file: heart-disease-mlops/notebooks/2_model_pipeline_cv.ipynb
         - file: heart-disease-mlops/notebooks/3_monitoreo_drift.ipynb
-    - file: Demostraciones_ML.ipynb
+    - title: "Demostraciones"
+      children:
+        - file: Demostraciones_ML.ipynb
 
 site:
   template: book-theme
