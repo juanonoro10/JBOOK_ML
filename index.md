@@ -9,3 +9,5 @@ Juan Camilo Oñoro Araujo y María Carolina Cantillo Orozco. Universidad del Nor
 **Proyecto 2.** Heart Disease MLOps: EDA y fuga de datos, modelo final con validación segura y monitoreo de deriva.
 
 **Demostraciones.** Demostraciones teóricas del curso.
+
+**Trabajo independiente.** Falling Chimney: modelo dinámico simplificado de una chimenea que cae y criterio de falla Mohr–Coulomb.

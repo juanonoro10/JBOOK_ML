@@ -18,6 +18,9 @@ project:
     - title: "Demostraciones"
       children:
         - file: Demostraciones_ML.ipynb
+    - title: "Trabajo independiente"
+      children:
+        - file: trabajo-independiente/FALLING_CHIMNEY.ipynb
 
 site:
   template: book-theme
