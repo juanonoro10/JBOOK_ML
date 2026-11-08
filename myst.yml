@@ -18,9 +18,10 @@ project:
     - title: "Demostraciones"
       children:
         - file: Demostraciones_ML.ipynb
-    - title: "Trabajo independiente"
+    - title: "Mechanical Analysis"
       children:
         - file: trabajo-independiente/FALLING_CHIMNEY.ipynb
+        - file: trabajo-independiente/failure-analysis-toothed-shaft.md
 
 site:
   template: book-theme

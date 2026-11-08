@@ -10,4 +10,4 @@ Juan Camilo Oñoro Araujo y María Carolina Cantillo Orozco. Universidad del Nor
 
 **Demostraciones.** Demostraciones teóricas del curso.
 
-**Trabajo independiente.** Falling Chimney: modelo dinámico simplificado de una chimenea que cae y criterio de falla Mohr–Coulomb.
+**Mechanical Analysis.** Falling Chimney: modelo dinámico simplificado de una chimenea que cae y criterio de falla Mohr–Coulomb. Failure Analysis — Toothed Shaft: fractografía (estereomicroscopio y SEM) de un eje dentado con fractura frágil mixta intergranular–transgranular.
