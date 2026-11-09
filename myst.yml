@@ -2,22 +2,24 @@ version: 1
 
 project:
   id: 1ef8883a-2780-4559-85c0-a713c7d02726
-  title: "Machine Learning"
+  title: "Portfolio — Juan Camilo Oñoro Araujo"
 
   toc:
     - file: index.md
-    - title: "Proyecto 1"
+    - title: "Machine Learning"
       children:
-        - file: 01_EDA_carga_inicial.ipynb
-    - title: "Proyecto 2"
-      children:
-        - file: heart-disease-mlops/README.md
-        - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
-        - file: heart-disease-mlops/notebooks/2_model_pipeline_cv.ipynb
-        - file: heart-disease-mlops/notebooks/3_monitoreo_drift.ipynb
-    - title: "Demostraciones"
-      children:
-        - file: Demostraciones_ML.ipynb
+        - title: "Proyecto 1"
+          children:
+            - file: 01_EDA_carga_inicial.ipynb
+        - title: "Proyecto 2"
+          children:
+            - file: heart-disease-mlops/README.md
+            - file: heart-disease-mlops/notebooks/1_model_leakage_demo.ipynb
+            - file: heart-disease-mlops/notebooks/2_model_pipeline_cv.ipynb
+            - file: heart-disease-mlops/notebooks/3_monitoreo_drift.ipynb
+        - title: "Demostraciones"
+          children:
+            - file: Demostraciones_ML.ipynb
     - title: "Mechanical Analysis"
       children:
         - file: trabajo-independiente/FALLING_CHIMNEY.ipynb
@@ -25,3 +27,5 @@ project:
 
 site:
   template: book-theme
+  options:
+    logo_text: "Juan Camilo Oñoro Araujo"

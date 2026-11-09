@@ -1,8 +1,12 @@
 ---
-title: "Machine Learning"
+title: "Portfolio"
 ---
 
-Juan Camilo Oñoro Araujo y María Carolina Cantillo Orozco. Universidad del Norte, 2026.
+Juan Camilo Oñoro Araujo. Ingeniería Mecánica, Universidad del Norte, 2026.
+
+## Machine Learning
+
+Proyectos del curso de Machine Learning, en coautoría con María Carolina Cantillo Orozco.
 
 **Proyecto 1.** Proyecto integrador con Lending Club Loan Data: carga inicial y análisis exploratorio.
 
@@ -10,4 +14,8 @@ Juan Camilo Oñoro Araujo y María Carolina Cantillo Orozco. Universidad del Nor
 
 **Demostraciones.** Demostraciones teóricas del curso.
 
-**Mechanical Analysis.** Falling Chimney: modelo dinámico simplificado de una chimenea que cae y criterio de falla Mohr–Coulomb. Failure Analysis — Toothed Shaft: fractografía (estereomicroscopio y SEM) de un eje dentado con fractura frágil mixta intergranular–transgranular.
+## Mechanical Analysis
+
+**Falling Chimney.** Modelo dinámico simplificado de una chimenea que cae y criterio de falla Mohr–Coulomb.
+
+**Failure Analysis — Toothed Shaft.** Fractografía (estereomicroscopio y SEM) de un eje dentado con fractura frágil mixta intergranular–transgranular.
