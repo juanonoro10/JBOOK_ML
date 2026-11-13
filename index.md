@@ -19,3 +19,7 @@ Proyectos del curso de Machine Learning, en coautoría con María Carolina Canti
 **Falling Chimney.** Modelo dinámico simplificado de una chimenea que cae y criterio de falla Mohr–Coulomb.
 
 **Failure Analysis — Toothed Shaft.** Fractografía (estereomicroscopio y SEM) de un eje dentado con fractura frágil mixta intergranular–transgranular.
+
+## Mechanical Drawing
+
+Planos elaborados para el curso de Dibujo Mecánico con base en la norma ASME Y14.5: cuerpo de válvula con bridas inclinadas, polea, sistema de ductos HVAC, engranaje cónico, tolerancias geométricas (GD&T), chapa metálica y ensamble de una rueda.

@@ -24,6 +24,15 @@ project:
       children:
         - file: trabajo-independiente/FALLING_CHIMNEY.ipynb
         - file: trabajo-independiente/failure-analysis-toothed-shaft.md
+    - file: mechanical-drawing/mechanical-drawing.md
+      children:
+        - file: mechanical-drawing/valve-lower-body.md
+        - file: mechanical-drawing/elevator-drum-pulley.md
+        - file: mechanical-drawing/hvac-duct-system.md
+        - file: mechanical-drawing/bevel-gear.md
+        - file: mechanical-drawing/geometric-tolerancing.md
+        - file: mechanical-drawing/sheet-metal-part.md
+        - file: mechanical-drawing/caster-assembly.md
 
 site:
   template: book-theme
